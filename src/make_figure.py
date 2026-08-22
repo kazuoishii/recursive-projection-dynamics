@@ -6,6 +6,10 @@ ED_FILE = "results/effective_dimension_results.csv"
 PROBE_FILE = "results/linear_probe_results.csv"
 OUT_PNG = "figures/representation_dynamics.png"
 OUT_PDF = "figures/representation_dynamics.pdf"
+
+from pathlib import Path
+Path("figures").mkdir(parents=True, exist_ok=True)
+
 layers = ["conv1", "layer1", "layer2", "layer3", "layer4"]
 
 ed = {}
