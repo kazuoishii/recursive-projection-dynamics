@@ -1,0 +1,7 @@
+layer,feature_dimension,train_accuracy,test_accuracy
+conv1,64,0.32726,0.3264
+layer1,64,0.53568,0.5233
+layer2,128,0.70056,0.6863
+layer3,256,0.931,0.8827
+layer4,512,0.99406,0.9298
+avgpool,512,0.99406,0.9298
