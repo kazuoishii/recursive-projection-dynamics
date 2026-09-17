@@ -6,6 +6,7 @@ Code and reported results for:
 Kazuo Ishii and Bishnu Prasad Gautam  
 NeurIPS 2026 Workshop on Symmetry and Geometry in Neural Representations (NeurReps), Extended Abstract Track.
 
+**Zenodo:** https://doi.org/10.5281/zenodo.22812258  
 **arXiv:** pending  
 **OpenReview:** submission #47
 
@@ -140,17 +141,22 @@ Training a neural network can exhibit small platform-dependent variation even wi
 
 ## Citation
 
+Zenodo preprint: https://doi.org/10.5281/zenodo.22812258  
 The arXiv identifier will be added after public release.
 
 ```bibtex
 @misc{ishii2026recursive,
-  title  = {Recursive Projection Dynamics of Neural Representations: Geometry, Dimensionality, and Task Information},
-  author = {Ishii, Kazuo and Gautam, Bishnu Prasad},
-  year   = {2026},
-  note   = {Submitted to the NeurIPS 2026 Workshop on Symmetry and Geometry in Neural Representations (NeurReps), Extended Abstract Track}
+  title     = {Recursive Projection Dynamics of Neural Representations: Geometry, Dimensionality, and Task Information},
+  author    = {Ishii, Kazuo and Gautam, Bishnu Prasad},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {1.0},
+  doi       = {10.5281/zenodo.22812258},
+  url       = {https://doi.org/10.5281/zenodo.22812258},
+  note      = {Submitted to the NeurIPS 2026 Workshop on Symmetry and Geometry in Neural Representations (NeurReps), Extended Abstract Track}
 }
 ```
 
 ## License
 
-The software in this repository is released under the MIT License. The manuscript may be subject to its separate arXiv / publication license.
+The software in this repository is released under the MIT License. The manuscript preprint is available from Zenodo under CC BY 4.0.
